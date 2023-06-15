@@ -1,8 +1,8 @@
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html style={{ scrollBehavior: 'smooth' }}>
       <head />
-      <body style={{ margin: 0, scrollBehavior: 'smooth' }}>{children}</body>
+      <body style={{ margin: 0 }}>{children}</body>
     </html>
   )
 }
